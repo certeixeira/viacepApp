@@ -3,8 +3,8 @@
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
 
-
-> Um App Android que retorna os dados da API do Viacep usando bibliotecas como Retrofit e Gson
+> Um App Android que retorna os dados da API do [ViaCep](https://viacep.com.br/) usando bibliotecas como [Retrofit](https://square.github.io/retrofit/) e [Gson](https://github.com/google/gson)
+> Apesar do projeto ter iniciado em Kotlin, também usei o Java na criação de algumas classes e funções.
 
 ### Exemplo de uso:
 
@@ -18,8 +18,6 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [ ] criar botão para limpar o EditText
 - [ ] Criar um ícone
 - [ ] Mostrar mensagem de erro quando o CEP é inválido
-
-
 
 
 ## 🤝 Colaboradores
