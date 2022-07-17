@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/viaCepApp.iml" filepath="$PROJECT_DIR$/.idea/modules/viaCepApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/viaCepApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/viaCepApp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/viaCepApp.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/viaCepApp.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/viaCepApp.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/viaCepApp.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/viaCepApp.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/viaCepApp.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Carlos\\.gradle\\daemon\\7.3.3\\com.example.viacepapp-mergeDebugResources-25:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Carlos\\.gradle\\daemon\\7.3.3\\com.example.viacepapp-main-28:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.example.viacepapp-mergeDebugResources-25:/layout/activity_main.xml",
+        "source": "com.example.viacepapp-main-28:/layout/activity_main.xml"
+    }
+]

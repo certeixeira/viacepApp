@@ -1,16 +1,19 @@
 package com.example.viacepapp;
 
-import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
 public class CEP {
 
+    @Nullable
     private String cep;
     private String logradouro;
     private String complemento;
     private String bairro;
     private String localidade;
     private String uf;
+    private String erro;
 
+    @Nullable
     public String getCep() {
         return cep;
     }
@@ -44,5 +47,9 @@ public class CEP {
                         "Bairro: " + getBairro() + "\n" +
                         "Cidade: " + getLocalidade() + "\n" +
                         "Estado: " + getUf();
+    }
+
+    public String getErro() {
+        return erro;
     }
 }

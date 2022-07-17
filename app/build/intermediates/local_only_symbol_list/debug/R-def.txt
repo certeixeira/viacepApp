@@ -1,0 +1,31 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color greenPrimary
+color greenText
+color greenVariant
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable et_shape
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable img_shape
+drawable viacep
+id btnClear
+id btnFindCep
+id etCep
+id imgViacep
+id tvResult
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string search_cep
+string type_the_zipcode
+style Theme.ViaCepApp
+xml backup_rules
+xml data_extraction_rules
