@@ -8,7 +8,7 @@
 
 ### Exemplo de uso:
 
-![Viacep10](https://user-images.githubusercontent.com/82918016/179374734-ba35a294-b2f1-4371-8078-ee5bc4f2598f.gif)
+![Viacep10](https://im.ezgif.com/tmp/ezgif-1-c3d4992efe.gif)
 
 
 ### Ajustes e melhorias
