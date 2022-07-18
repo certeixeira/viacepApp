@@ -15,8 +15,9 @@
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-- [ ] criar botão para limpar o EditText
+- [x] Criar botão para limpar os campos
 - [ ] Criar um ícone
+- [x] Adicionar maskara no EditText do CEP
 - [ ] Mostrar mensagem de erro quando o CEP é inválido
 
 
