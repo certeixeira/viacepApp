@@ -11,7 +11,8 @@
 
 ### Exemplo de uso:
 
-![ezgif-1-c3d4992efe](https://user-images.githubusercontent.com/82918016/180230190-5076efe6-b832-4b6f-9c91-53efbc62f4d5.gif)
+![Viacep10](https://user-images.githubusercontent.com/82918016/182395929-545bcc7a-b5c3-4abe-a820-b0904dc715eb.gif)
+
 
 
 
