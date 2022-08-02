@@ -1,5 +1,8 @@
 # ViaCep App
 
+
+
+
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
 
@@ -8,7 +11,8 @@
 
 ### Exemplo de uso:
 
-![Viacep10](https://user-images.githubusercontent.com/82918016/179374734-ba35a294-b2f1-4371-8078-ee5bc4f2598f.gif)
+![ezgif-1-c3d4992efe](https://user-images.githubusercontent.com/82918016/180230190-5076efe6-b832-4b6f-9c91-53efbc62f4d5.gif)
+
 
 
 ### Ajustes e melhorias
