@@ -2,4 +2,5 @@
     <string name="app_name">viaCepApp</string>
     <string name="type_the_zipcode">Digite o cep</string>
     <string name="search_cep">Buscar CEP</string>
+    <string name="required">Necessário</string>
 </resources>

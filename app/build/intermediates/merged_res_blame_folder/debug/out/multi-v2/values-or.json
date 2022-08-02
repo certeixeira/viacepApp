@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.viacepapp-mergeDebugResources-24:/values-or/values-or.xml",
+            "outputFile": "com.example.viacepapp-mergeDebugResources-25:/values-or/values-or.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Carlos\\.gradle\\caches\\transforms-3\\8a9e634b9fa2342236d9d40ba886a153\\transformed\\core-1.8.0\\res\\values-or\\values-or.xml",

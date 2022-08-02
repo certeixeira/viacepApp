@@ -5,22 +5,22 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.viacepapp.R;
+import com.santalu.maskara.widget.MaskEditText;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class ActivityMainBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final ScrollView rootView;
 
   @NonNull
   public final Button btnClear;
@@ -29,7 +29,7 @@ public final class ActivityMainBinding implements ViewBinding {
   public final Button btnFindCep;
 
   @NonNull
-  public final EditText etCep;
+  public final MaskEditText etCep;
 
   @NonNull
   public final ImageView imgViacep;
@@ -37,8 +37,8 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final TextView tvResult;
 
-  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnClear,
-      @NonNull Button btnFindCep, @NonNull EditText etCep, @NonNull ImageView imgViacep,
+  private ActivityMainBinding(@NonNull ScrollView rootView, @NonNull Button btnClear,
+      @NonNull Button btnFindCep, @NonNull MaskEditText etCep, @NonNull ImageView imgViacep,
       @NonNull TextView tvResult) {
     this.rootView = rootView;
     this.btnClear = btnClear;
@@ -50,7 +50,7 @@ public final class ActivityMainBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public ScrollView getRoot() {
     return rootView;
   }
 
@@ -88,7 +88,7 @@ public final class ActivityMainBinding implements ViewBinding {
       }
 
       id = R.id.etCep;
-      EditText etCep = ViewBindings.findChildViewById(rootView, id);
+      MaskEditText etCep = ViewBindings.findChildViewById(rootView, id);
       if (etCep == null) {
         break missingId;
       }
@@ -105,8 +105,8 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, btnClear, btnFindCep, etCep,
-          imgViacep, tvResult);
+      return new ActivityMainBinding((ScrollView) rootView, btnClear, btnFindCep, etCep, imgViacep,
+          tvResult);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.viacepapp-mergeDebugResources-24:/values-ru/values-ru.xml",
+            "outputFile": "com.example.viacepapp-mergeDebugResources-25:/values-ru/values-ru.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Carlos\\.gradle\\caches\\transforms-3\\8a39463ca7a3527efd979299126c223b\\transformed\\appcompat-1.4.2\\res\\values-ru\\values-ru.xml",

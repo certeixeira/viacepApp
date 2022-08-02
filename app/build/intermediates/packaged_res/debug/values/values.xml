@@ -11,6 +11,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">viaCepApp</string>
+    <string name="required">Necessário</string>
     <string name="search_cep">Buscar CEP</string>
     <string name="type_the_zipcode">Digite o cep</string>
     <style name="Theme.ViaCepApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">

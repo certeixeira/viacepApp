@@ -712,6 +712,9 @@ attr marginHorizontal
 attr marginLeftSystemWindowInsets
 attr marginRightSystemWindowInsets
 attr marginTopSystemWindowInsets
+attr mask
+attr maskCharacter
+attr maskStyle
 attr materialAlertDialogBodyTextStyle
 attr materialAlertDialogButtonSpacerVisibility
 attr materialAlertDialogTheme
@@ -2647,6 +2650,7 @@ id clip_vertical
 id clockwise
 id closest
 id collapseActionView
+id completable
 id compress
 id confirm_button
 id constraint
@@ -2859,6 +2863,7 @@ id path
 id pathRelative
 id peekHeight
 id percent
+id persistent
 id pin
 id position
 id postLayout
@@ -3315,6 +3320,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string required
 string search_cep
 string search_menu_title
 string status_bar_notification_info_overflow
@@ -4449,6 +4455,7 @@ styleable LinearLayoutCompat android_gravity android_orientation android_baselin
 styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width android_layout_height android_layout_weight
 styleable LinearProgressIndicator indeterminateAnimationType indicatorDirectionLinear
 styleable ListPopupWindow android_dropDownHorizontalOffset android_dropDownVerticalOffset
+styleable MaskEditText mask maskCharacter maskStyle
 styleable MaterialAlertDialog backgroundInsetBottom backgroundInsetEnd backgroundInsetStart backgroundInsetTop
 styleable MaterialAlertDialogTheme materialAlertDialogBodyTextStyle materialAlertDialogButtonSpacerVisibility materialAlertDialogTheme materialAlertDialogTitleIconStyle materialAlertDialogTitlePanelStyle materialAlertDialogTitleTextStyle
 styleable MaterialAutoCompleteTextView android_inputType simpleItemLayout simpleItems
